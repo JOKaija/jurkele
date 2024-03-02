@@ -2,32 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
+.gold-border {
+  padding: 3px;
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+      0deg,
+      rgba(31, 35, 48, 0.2),
+      rgba(31, 35, 48, 0.2)
+    ),
+    linear-gradient(
+      329.12deg,
+      #c77515 -43.92%,
+      rgba(217, 133, 34, 0) -3.11%,
+      rgba(221, 136, 37, 0.8) 23.43%,
+      rgba(227, 141, 41, 0) 82.48%,
+      #ea942f 140.8%,
+      rgba(237, 151, 49, 0) 168.6%,
+      #ef9933 187.94%
+    );
+  border: 1.3px solid;
+  border-image-source: linear-gradient(
+    329.12deg,
+    #c77515 -43.92%,
+    rgba(217, 133, 34, 0) -3.11%,
+    rgba(221, 136, 37, 0.8) 23.43%,
+    rgba(227, 141, 41, 0) 82.48%,
+    #ea942f 140.8%,
+    rgba(237, 151, 49, 0) 168.6%,
+    #ef9933 187.94%
+  );
+  box-shadow: 0px 4px 47.5px 0px #00000066 inset;
+  border-radius: 19.95px;
 }
