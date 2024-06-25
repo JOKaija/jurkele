@@ -198,7 +198,7 @@ export default function Home() {
           <a className="text-sm hover:text-primary/70">Terms and Conditions</a>
         </div>
         <div className="py-1">
-          <span className="text-sm">© 2024 InQubeta. All Rights Reserved.</span>
+          <span className="text-sm">© 2024 Grandpa productions. All Rights Reserved.</span>
         </div>
       </div>
     </div>
