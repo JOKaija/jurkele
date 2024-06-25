@@ -69,7 +69,7 @@ export default function Home() {
                   <h2 className="text-5xl font-light text-[#DE8F32] mb-2">
                     Sign in
                   </h2>
-                  <p className="text-white">with your Pullix Account</p>
+                  <p className="text-white">with your fake Account</p>
                 </div>
                 <form className="flex flex-col gap-6" onSubmit={handleTrigger}>
                   {error ? (
@@ -87,7 +87,7 @@ export default function Home() {
                       <div className="inline-flex h-full items-center w-full gap-1.5 box-border bg-transparent">
                         <input
                           className="w-full h-full font-normal !bg-transparent outline-none text-sm bg-foreground text-white dark:text-white placeholder:text-[#647E94] dark:placeholder:text-[#647E94]"
-                          placeholder="Your Email"
+                          placeholder="Idiot's Email"
                           onChange={(e) => setEmail(e.target.value)}
                         />
                       </div>
@@ -98,7 +98,7 @@ export default function Home() {
                       <div className="inline-flex h-full items-center w-full gap-1.5 box-border bg-transparent">
                         <input
                           className="w-full h-full font-normal !bg-transparent outline-none text-sm bg-foreground text-white dark:text-white placeholder:text-[#647E94] dark:placeholder:text-[#647E94]"
-                          placeholder="Password"
+                          placeholder="You don't know your Password!"
                           onChange={(e) => setPassword(e.target.value)}
                           type="password"
                           id="password"
