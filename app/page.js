@@ -173,7 +173,7 @@ export default function Home() {
                       {loading ? (
                         <span className="loading loading-spinner loading-md"></span>
                       ) : (
-                        "Sign In"
+                        "Hello idiot!"
                       )}
                     </button>
                   </div>
@@ -183,7 +183,7 @@ export default function Home() {
                       className="cursor-pointer text-[#DE8F32] ml-2"
                       href="/sign-up"
                     >
-                      Sign up here
+                      "Kick in!"
                     </a>
                   </p>
                 </form>
