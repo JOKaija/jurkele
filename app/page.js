@@ -123,7 +123,7 @@ export default function Home() {
                         }}
                       >
                         <input
-                          aria-label="Remember me"
+                          aria-label="Never remember me!"
                           aria-labelledby=":R1mdbbadda:"
                           type="checkbox"
                           value=""
@@ -173,12 +173,12 @@ export default function Home() {
                       {loading ? (
                         <span className="loading loading-spinner loading-md"></span>
                       ) : (
-                        "Hello idiot!"
+                        "Hello idiot. KLICK THIS!"
                       )}
                     </button>
                   </div>
                   <p className="text-sm font-medium text-white">
-                    Don’t have an account?
+                    "You don’t belong here!"
                     <a
                       className="cursor-pointer text-[#DE8F32] ml-2"
                       href="/sign-up"
